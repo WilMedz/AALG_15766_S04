@@ -26,7 +26,7 @@ def busqrecursiva(lis,inicio,final,busca):
     else:
         return busqrecursiva(lis,inicio,medio - 1,busca)
 
-for i in range(8,24):
+for i in range(10,24):
     print(i,busqiterativa(lis,i))
     print(i,busqrecursiva(lis,0,len(lis)-1,i))
 
